@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Attendance Chart</title>
+    <link rel="stylesheet" href="home_graph.css">
+</head>
+<body>
+<div>
+    <div class="header">
+        <h2>STUDENT PORTAL</h2>
+    </div>
+    
+    <!-- Nav -->
+    <div class="nav">
+        <ul>
+            <li><a href="home_graph.html">HOME</a></li>
+            <li><a href="home.html">ATTENDACE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="H.html">COURSE MANAGEMENT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li style="float: right;"><a href="login.html">LOGOUT</a></li>
+            <li style="float: right;"><a href="profile.html">PROFILE</a></li>
+        </ul>
+    </div>
+
+  <div class="chart-container" style="width: 400px; height: 400px;">
+      <canvas id="pie-chart" width="400" height="400"></canvas>
+  </div>
+  
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr style="background-color: rgb(22, 192, 239);">
+                  <th>Subjects</th>  
+                  <th>Attendance (%)</th>
+                  <th>Grade</th>
+                  <th>Remarks</th>
+                  <th>Actions</th>
+                  <th>Notes</th>
+                  <th>Updated</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Math</td>
+                    <td>85</td>
+                    <td>A</td>
+                    <td>Good</td>
+                    <td>Edit</td>
+                    <td></td>
+                    <td>2024-08-29</td>
+                </tr>
+                <tr>                    
+                    <td>English</td>
+                    <td>92</td>
+                    <td>A+</td>
+                    <td>Excellent</td>
+                    <td>Edit</td>
+                    <td></td>
+                    <td>2024-08-29</td>
+                </tr>
+                <tr>                    
+                    <td>Math</td>
+                    <td>78</td>
+                    <td>B</td>
+                    <td>Fair</td>
+                    <td>Edit</td>
+                    <td></td>
+                    <td>2024-08-29</td>
+                </tr>
+                <tr>                    
+                    <td>English</td>
+                    <td>95</td>
+                    <td>A+</td>
+                    <td>Outstanding</td>
+                    <td>Edit</td>
+                    <td></td>
+                    <td>2024-08-29</td>
+                </tr>
+                <tr>
+                    <td>Math</td>
+                    <td>88</td>
+                    <td>A</td>
+                    <td>Good</td>
+                    <td>Edit</td>
+                    <td></td>
+                    <td>2024-08-29</td>
+                </tr>
+                <tr> 
+                    <td>English</td>
+                    <td>90</td>
+                    <td>A</td>
+                    <td>Excellent</td>
+                    <td>Edit</td>
+                    <td></td>
+                    <td>2024-08-29</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Change this link if needed for production -->
+    <a href="home.html">Prediction</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="home_graph.js"></script>
+
+    <div class="footer">
+        <p>©<strong>Copyright CBIT.com</strong></p>
+    </div>
+</div>
+</body> 
+</html>

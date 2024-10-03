@@ -1,0 +1,78 @@
+/* Body Styling */
+body {
+    background-image: url('img.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Universal Reset for Consistency */
+body, h2, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Login Container */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Enhanced shadow for depth */
+    width: 320px; /* Slightly wider for better spacing */
+    max-width: 90%; /* Responsive for smaller screens */
+}
+
+/* Headings */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Larger font for better hierarchy */
+    color: #333; /* Darker color for better contrast */
+}
+
+/* Input Group Styling */
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px; /* Slightly more spacing for clarity */
+    font-weight: bold;
+    font-size: 14px;
+    color: #555; /* Softer color for labels */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #fafafa; /* Light background for input fields */
+}
+
+/* Button Styling */
+.button-link {
+    display: inline-block;
+    width: 100%;
+    padding: 12px; /* Slightly larger padding for touch targets */
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+}
+
+.button-link:hover {
+    background-color: #45a049; /* Slightly darker on hover for feedback */
+}

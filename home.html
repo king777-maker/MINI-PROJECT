@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Tracker</title>
+    <link rel="stylesheet" href="home_style.css">
+    
+</head>
+<body>
+<div>
+    <div class="header">
+        <h2>STUDENT PORTAL</h2>
+    </div>
+        
+      <!-- Nav -->
+      <div class="nav">
+        <ul>
+            <li><a href="home_graph.html">HOME</a></li>
+            <li><a href="home.html">ATTENDACE</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="H.html">COURSE MANAGEMENT</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+            <li style="float: right;"><a href="login.html">LOGOUT</a></li>
+            <li style="float: right;"><a href="profile.html">PROFILE</a></li>
+        </ul>
+    </div>
+    <div class="container">
+        <h1>Attendance Tracker</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Subject</th>
+                    <th>Total Classes</th>
+                    <th>Attended Classes</th>
+                    <th>Attendance %</th>
+                    <th>Classes Left</th>
+                    <th>Classes Needed for 75%</th>
+                    <th>Needed from Remaining</th>
+                    <th>Safe Zone</th>
+                </tr>
+            </thead>
+            <tbody id="attendance-table">
+                <!-- JavaScript will populate this table -->
+            </tbody>
+        </table>
+    </div>
+</div>
+    <script src="home_table_data.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,105 @@
+/* styles.css */
+body{
+    background-color: #afdde5;
+    margin:0px;
+  }
+      .header{
+              padding: 10px;
+              background-color:#024950;
+              text-align: center;
+             }
+        .header h2{
+          color: black; }
+            /*===============[Nav CSS]==========*/
+            .nav{
+              background-color:#90aead;
+              padding: 5px;
+              }
+           
+            .nav li{
+            list-style: none;
+            display: inline-block;
+            padding: 8px;
+             }
+         .nav a{
+           color: #fff;
+         }
+         
+        .nav ul li a:hover
+        {
+         text-decoration: none;
+          color: #7fffd4;
+         }
+            .lside{
+               float: left;
+             width: 80%;
+             min-height: 440px;
+             background-color: #f0f8ff;
+             text-align: center;
+            }
+         .rside
+         {
+           text-align: center;
+          float: right;
+           width: 20%;
+             min-height: 440px;
+           background-color: 	#c1cdcd;
+         }
+         .footer{
+           height: 44px;
+            background-color:#455e64; 
+           text-align: center; 
+           padding-top: 10px;}
+  
+           .footer p{
+             color: 	#8fbc8f;
+           }
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4a90e2;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #4a90e2;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
